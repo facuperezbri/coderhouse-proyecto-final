@@ -1,0 +1,18 @@
+@import "../base/variables";
+
+.contacto-container {
+	.contacto-link-container {
+		display: flex;
+		width: 100%;
+		align-items: center;
+		justify-content: space-around;
+		.contacto-logo {
+			height: 6rem;
+			min-height: 50px;
+			transition: 0.3s ease;
+			&:hover {
+				transform: scale(1.3);
+			}
+		}
+	}
+}

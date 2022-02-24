@@ -1,0 +1,18 @@
+@import "../base/variables";
+
+.servicios-container {
+	.row-servicios-container {
+		justify-content: center;
+		.col-servicios-container {
+			text-align: center;
+			img {
+				height: 100px;
+				margin-bottom: 2rem;
+				transition: 0.3s ease;
+				&:hover {
+					transform: scale(1.5);
+				}
+			}
+		}
+	}
+}

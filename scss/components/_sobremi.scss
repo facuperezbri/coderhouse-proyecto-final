@@ -1,0 +1,20 @@
+@import "../base/variables";
+
+.sobremi-container {
+	.container {
+		.row-sobremi-container {
+			align-items: center;
+			.col-sobremi-container {
+				text-align: center;
+
+				.sobremi-text {
+				}
+				.sobremi-image {
+					border-radius: 15px;
+					border: 4px solid white;
+					padding: 0.5rem;
+				}
+			}
+		}
+	}
+}

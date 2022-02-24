@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<!-- Link Bootstrap -->
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+			crossorigin="anonymous"
+		/>
+
+		<!-- Link CSS animate -->
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+		/>
+
+		<!-- Link CSS -->
+		<link rel="stylesheet" href="css/style.css" />
+
+		<title>Pupi Pérez Brizuela</title>
+	</head>
+	<body>
+		<!-- Inicio Header -->
+		<header class="top-nav container-fluid">
+			<a href="#">
+				<img class="principal-logo" src="images/logopupi.svg" alt="Logo Pupi"
+			/></a>
+			<input id="menu-toggle" type="checkbox" />
+			<label class="menu-button-container" for="menu-toggle">
+				<div class="menu-button"></div>
+			</label>
+			<ul class="menu">
+				<li><a href="#">Inicio</a></li>
+				<li><a href="#portfolio">Portfolio</a></li>
+				<li><a href="#servicios">Servicios</a></li>
+				<li><a href="#sobremi">Sobre mí</a></li>
+				<li><a href="#contacto">Contacto</a></li>
+			</ul>
+		</header>
+		<!-- Fin Header -->
+
+		<!-- Inicio Main -->
+		<main>
+			<!-- Inicio Welcome Screen -->
+			<section class="welcome-screen">
+				<p class="animate__animated animate__fadeInUp animate__slow">
+					“La fotografía es verdad. Y el cine es verdad veinticuatro veces por
+					segundo”
+				</p>
+				<p class="animate__animated animate__fadeInUp animate__slow">
+					Jean-Luc Godard.
+				</p>
+			</section>
+			<!-- Fin Welcome Screen -->
+
+			<!-- Inicio Portfolio -->
+			<section id="portfolio" class="portfolio-container container-fluid">
+				<h2>Portfolio</h2>
+				<div class="container">
+					<div class="row row-portfolio-container">
+						<div class="col-sm-12 col-lg-6 col-portfolio-container">
+							<h3>Arquitectura</h3>
+							<div
+								id="carouselArquitectura"
+								class="carousel slide"
+								data-bs-ride="carousel"
+							>
+								<div class="carousel-indicators">
+									<button
+										type="button"
+										data-bs-target="#carouselArquitectura"
+										data-bs-slide-to="0"
+										class="active"
+										aria-current="true"
+										aria-label="Slide 1"
+									></button>
+									<button
+										type="button"
+										data-bs-target="#carouselArquitectura"
+										data-bs-slide-to="1"
+										aria-label="Slide 2"
+									></button>
+									<button
+										type="button"
+										data-bs-target="#carouselArquitectura"
+										data-bs-slide-to="2"
+										aria-label="Slide 3"
+									></button>
+									<button
+										type="button"
+										data-bs-target="#carouselArquitectura"
+										data-bs-slide-to="3"
+										aria-label="Slide 4"
+									></button>
+								</div>
+								<div class="carousel-inner">
+									<div class="carousel-item active">
+										<img
+											src="images/arquitectura1.jpg"
+											class="d-block w-100"
+											alt="Comedor"
+										/>
+									</div>
+									<div class="carousel-item">
+										<img
+											src="images/arquitectura2.jpg"
+											class="d-block w-100"
+											alt="Baño"
+										/>
+									</div>
+									<div class="carousel-item">
+										<img
+											src="images/arquitectura3.jpg"
+											class="d-block w-100"
+											alt="Living"
+										/>
+									</div>
+									<div class="carousel-item">
+										<img
+											src="images/arquitectura4.jpg"
+											class="d-block w-100"
+											alt="Living-comedor"
+										/>
+									</div>
+								</div>
+								<button
+									class="carousel-control-prev"
+									type="button"
+									data-bs-target="#carouselArquitectura"
+									data-bs-slide="prev"
+								>
+									<span
+										class="carousel-control-prev-icon"
+										aria-hidden="true"
+									></span>
+									<span class="visually-hidden">Previous</span>
+								</button>
+								<button
+									class="carousel-control-next"
+									type="button"
+									data-bs-target="#carouselArquitectura"
+									data-bs-slide="next"
+								>
+									<span
+										class="carousel-control-next-icon"
+										aria-hidden="true"
+									></span>
+									<span class="visually-hidden">Next</span>
+								</button>
+							</div>
+							<p>
+								Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+								Commodi odit, veniam aliquid error quas dolores odio sequi
+								doloremque assumenda cum! Dolor impedit eos numquam ipsum magni!
+								Corrupti eos vel facilis.
+							</p>
+						</div>
+						<div class="col-sm-12 col-lg-6 col-portfolio-container">
+							<h3>Eventos Sociales</h3>
+							<div
+								id="carouselEventos"
+								class="carousel slide"
+								data-bs-ride="carousel"
+							>
+								<div class="carousel-indicators">
+									<button
+										type="button"
+										data-bs-target="#carouselEventos"
+										data-bs-slide-to="0"
+										class="active"
+										aria-current="true"
+										aria-label="Slide 1"
+									></button>
+									<button
+										type="button"
+										data-bs-target="#carouselEventos"
+										data-bs-slide-to="1"
+										aria-label="Slide 2"
+									></button>
+									<button
+										type="button"
+										data-bs-target="#carouselEventos"
+										data-bs-slide-to="2"
+										aria-label="Slide 3"
+									></button>
+									<button
+										type="button"
+										data-bs-target="#carouselEventos"
+										data-bs-slide-to="3"
+										aria-label="Slide 4"
+									></button>
+								</div>
+								<div class="carousel-inner">
+									<div class="carousel-item active">
+										<img
+											src="images/eventos1.jpg"
+											class="d-block w-100"
+											alt="..."
+										/>
+									</div>
+									<div class="carousel-item">
+										<img
+											src="images/eventos2.jpg"
+											class="d-block w-100"
+											alt="..."
+										/>
+									</div>
+									<div class="carousel-item">
+										<img
+											src="images/eventos3.jpg"
+											class="d-block w-100"
+											alt="..."
+										/>
+									</div>
+									<div class="carousel-item">
+										<img
+											src="images/eventos4.jpg"
+											class="d-block w-100"
+											alt="..."
+										/>
+									</div>
+								</div>
+								<button
+									class="carousel-control-prev"
+									type="button"
+									data-bs-target="#carouselEventos"
+									data-bs-slide="prev"
+								>
+									<span
+										class="carousel-control-prev-icon"
+										aria-hidden="true"
+									></span>
+									<span class="visually-hidden">Previous</span>
+								</button>
+								<button
+									class="carousel-control-next"
+									type="button"
+									data-bs-target="#carouselEventos"
+									data-bs-slide="next"
+								>
+									<span
+										class="carousel-control-next-icon"
+										aria-hidden="true"
+									></span>
+									<span class="visually-hidden">Next</span>
+								</button>
+							</div>
+							<p>
+								Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+								Praesentium, nam sint dolor ullam iure eum accusantium fuga
+								maiores velit enim, quasi, est voluptas harum soluta a? Dolorem
+								consequuntur placeat reiciendis.
+							</p>
+						</div>
+						<div class="col-sm-12 col-lg-6 col-portfolio-container col-moda">
+							<h3>Moda y Publicidad</h3>
+							<div
+								id="carouselModa"
+								class="carousel slide"
+								data-bs-ride="carousel"
+							>
+								<div class="carousel-indicators">
+									<button
+										type="button"
+										data-bs-target="#carouselModa"
+										data-bs-slide-to="0"
+										class="active"
+										aria-current="true"
+										aria-label="Slide 1"
+									></button>
+									<button
+										type="button"
+										data-bs-target="#carouselModa"
+										data-bs-slide-to="1"
+										aria-label="Slide 2"
+									></button>
+									<button
+										type="button"
+										data-bs-target="#carouselModa"
+										data-bs-slide-to="2"
+										aria-label="Slide 3"
+									></button>
+									<button
+										type="button"
+										data-bs-target="#carouselModa"
+										data-bs-slide-to="3"
+										aria-label="Slide 4"
+									></button>
+								</div>
+								<div class="carousel-inner">
+									<div class="carousel-item active">
+										<img
+											src="images//moda1.jpg"
+											class="d-block w-100"
+											alt="..."
+										/>
+									</div>
+									<div class="carousel-item">
+										<img
+											src="images//moda2.jpg"
+											class="d-block w-100"
+											alt="..."
+										/>
+									</div>
+									<div class="carousel-item">
+										<img
+											src="images//moda3.jpg"
+											class="d-block w-100"
+											alt="..."
+										/>
+									</div>
+									<div class="carousel-item">
+										<img
+											src="images//moda4.jpg"
+											class="d-block w-100"
+											alt="..."
+										/>
+									</div>
+								</div>
+								<button
+									class="carousel-control-prev"
+									type="button"
+									data-bs-target="#carouselModa"
+									data-bs-slide="prev"
+								>
+									<span
+										class="carousel-control-prev-icon"
+										aria-hidden="true"
+									></span>
+									<span class="visually-hidden">Previous</span>
+								</button>
+								<button
+									class="carousel-control-next"
+									type="button"
+									data-bs-target="#carouselModa"
+									data-bs-slide="next"
+								>
+									<span
+										class="carousel-control-next-icon"
+										aria-hidden="true"
+									></span>
+									<span class="visually-hidden">Next</span>
+								</button>
+							</div>
+							<p>
+								Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+								Voluptas necessitatibus, facere doloribus eius ad sed
+								perspiciatis amet consequuntur deserunt adipisci inventore
+								accusantium. Quisquam eligendi maiores modi praesentium
+								excepturi et est!
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- Fin Portfolio -->
+
+			<!-- Inicio Servicios -->
+			<section id="servicios" class="servicios-container">
+				<h2>Servicios</h2>
+				<div class="container">
+					<div class="row row-servicios-container">
+						<div class="col-sm-12 col-lg 4 col-servicios-container">
+							<img src="images/camara.png" alt="fotografía" />
+							<h3>Fotografía</h3>
+						</div>
+						<div class="col-sm-12 col-lg 4 col-servicios-container">
+							<img src="images/edicion.png" alt="fotografía" />
+							<h3>Edición</h3>
+						</div>
+						<div class="col-sm-12 col-lg 4 col-servicios-container">
+							<img src="images/cine.png" alt="fotografía" />
+							<h3>Dirección</h3>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- Fin Servicios -->
+
+			<!-- Inicio Sobre mí -->
+			<section id="sobremi" class="sobremi-container">
+				<h2>Sobre mí</h2>
+				<div class="container">
+					<div class="row row-sobremi-container">
+						<div class="col-sm-12 col-lg-6 col-sobremi-container">
+							<p class="sobremi-text">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem
+								repellendus harum molestias amet exercitationem libero, autem
+								explicabo consectetur placeat unde, eligendi asperiores. Minus
+								sit dignissimos suscipit quia rem deleniti quod?
+							</p>
+						</div>
+						<div class="col-sm-12 col-lg-6 col-sobremi-container">
+							<img
+								class="sobremi-image"
+								src="images/pupi.jpg"
+								alt="Fotografía cocina"
+							/>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- Fin Sobre mí -->
+
+			<!-- Inicio contacto -->
+			<section id="contacto" class="contacto-container">
+				<h2>Contacto</h2>
+				<div class="contacto-link-container">
+					<a
+						class="contacto-link"
+						href="https://api.whatsapp.com/send?phone=5492615572804"
+						target="_blank"
+						><img
+							class="contacto-logo"
+							src="images/whatsapp.svg"
+							alt="Logo Whatsapp"
+					/></a>
+					<a
+						class="contact-link"
+						href="https://www.instagram.com/pupiperezbri/"
+						target="_blank"
+						><img
+							class="contacto-logo"
+							src="images/instagram.svg"
+							alt="Instagram: @pupiperezbri"
+					/></a>
+					<a
+						class="contacto-link"
+						href="https://www.linkedin.com/in/pupiperezbri/"
+						target="_blank"
+						><img
+							class="contacto-logo"
+							src="images/linkedin.svg"
+							alt="Linkedin: Rocío Pérez Brizuela"
+					/></a>
+					<a
+						class="contacto-link"
+						href="https://www.flickr.com/photos/pupiperezbri/"
+						target="_blank"
+						><img
+							class="contacto-logo"
+							src="images/flickr.svg"
+							alt="Flickr: @pupiperezbri"
+					/></a>
+				</div>
+			</section>
+			<!-- Fin contacto -->
+		</main>
+		<!-- Fin Main -->
+
+		<!-- Inicio footer -->
+
+		<footer>
+			<div>Un proyecto hecho por Facundo Pérez Brizuela</div>
+			<div>Curso de Desarrollo Web</div>
+			<a
+				class="logo-coder"
+				href="https://www.coderhouse.com/?referral-cpn=611d9e45f9b77b0011c0debf&utm_source=referidos&utm_medium=plataforma&utm_campaign=alumno&utm_term=facundo-p%C3%A9rez-brizuela&utm_content=whatsapp"
+				target="_blank"
+				><img src="images/logo_coderhouse_3_bllxal.png" alt="coderhouse.com"
+			/></a>
+		</footer>
+
+		<!-- Fin footer -->
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+			crossorigin="anonymous"
+		></script>
+	</body>
+</html>

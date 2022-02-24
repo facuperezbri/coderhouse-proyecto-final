@@ -1,0 +1,20 @@
+@import "../base/variables";
+
+.portfolio-container {
+	.row-portfolio-container {
+		justify-content: center;
+		.col-portfolio-container {
+			padding: 2rem 1rem;
+			img {
+				width: 100%;
+			}
+			p {
+				padding-top: 2rem;
+			}
+		}
+	}
+}
+
+.carousel-item img {
+	border-radius: 10px;
+}
