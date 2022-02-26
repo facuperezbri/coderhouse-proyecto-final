@@ -1,7 +1,9 @@
-@import '../base/variables';
+@import "../base/variables";
+
+/* Welcome Screen */
 
 .welcome-screen {
-    display: flex;
+	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
@@ -11,25 +13,24 @@
 	background-image: url(../images/main.jpg);
 	background-position: center;
 	background-size: cover;
-    p {
-        text-align: center;
-        width: 80vw;
-        &:first-child {
-            font-family: "Marcellus", serif;
-            font-size: 2rem;
-            color: $main-text-color;
-            @media screen and (min-width: 700px) {
-                font-size: 4rem;
-            }
-        }
-        &:last-child {
-            font-family: "Marcellus", serif;
-            font-size: 1rem;
-            color: $main-text-color;
-            @media screen and (min-width: 700px) {
-                font-size: 2rem;
-            }
-            
-        }
-    }
+	p {
+		text-align: center;
+		width: 80vw;
+		&:first-child {
+			font-family: "Marcellus", serif;
+			font-size: 2rem;
+			color: $main-text-color;
+			@media screen and (min-width: 700px) {
+				font-size: 4rem;
+			}
+		}
+		&:last-child {
+			font-family: "Marcellus", serif;
+			font-size: 1rem;
+			color: $main-text-color;
+			@media screen and (min-width: 700px) {
+				font-size: 2rem;
+			}
+		}
+	}
 }
