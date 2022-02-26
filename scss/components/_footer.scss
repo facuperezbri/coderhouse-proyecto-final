@@ -1,6 +1,14 @@
 @import "../base/variables";
 
 footer {
+	div {
+		a {
+			color: $main-text-color;
+		}
+		a:hover {
+			color: $hover-color;
+		}
+	}
 	margin-top: 2rem;
 	padding: 1.5rem;
 	text-align: center;
