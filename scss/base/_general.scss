@@ -29,7 +29,7 @@ body {
 
 *::selection {
 	background-color: rgba(48, 45, 45, 0.6);
-	color: $hover-color;
+	color: map-get($map: $colors, $key: hover);
 }
 
 h2 {
@@ -41,7 +41,7 @@ h2 {
 }
 
 h3 {
-	color: $main-text-color;
+	color: map-get($map: $colors, $key: main-text);
 	text-align: center;
 	padding-bottom: 2rem;
 }
