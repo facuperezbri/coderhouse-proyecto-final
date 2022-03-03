@@ -12,3 +12,16 @@ $colors: (
 	"hover": #ffa500,
 	"main-bg": #151518,
 );
+
+/* Mixins */
+
+@mixin border-general($color, $width) {
+	border: $width solid $color;
+}
+
+/* Extend */
+
+%texts {
+	color: map-get($map: $colors, $key: main-text);
+	text-align: center;
+}

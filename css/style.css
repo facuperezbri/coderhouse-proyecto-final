@@ -1,7 +1,14 @@
 @charset "UTF-8";
 /* Maps - Lo hago a forma de entrega de desafío pero por la cantidad que tengo me resulta más fácil definir cada variable */
-/* Font */
+/* Mixins */
+/* Extend */
 @import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;500&family=Marcellus&display=swap");
+footer, h2 {
+  color: #fff;
+  text-align: center;
+}
+
+/* Font */
 /* Reset */
 * {
   box-sizing: border-box;
@@ -30,9 +37,9 @@ body {
 h2 {
   font-size: 3rem;
   font-weight: 500;
-  color: #fff;
+  /* 	color: $main-text-color; */
   padding: 2rem 0;
-  text-align: center;
+  /* 	text-align: center; */
 }
 
 h3 {
@@ -54,6 +61,13 @@ li {
 }
 
 /* Maps - Lo hago a forma de entrega de desafío pero por la cantidad que tengo me resulta más fácil definir cada variable */
+/* Mixins */
+/* Extend */
+footer, h2 {
+  color: #fff;
+  text-align: center;
+}
+
 /* Header */
 .top-nav {
   position: fixed;
@@ -183,6 +197,13 @@ li {
 }
 
 /* Maps - Lo hago a forma de entrega de desafío pero por la cantidad que tengo me resulta más fácil definir cada variable */
+/* Mixins */
+/* Extend */
+footer, h2 {
+  color: #fff;
+  text-align: center;
+}
+
 /* Welcome Screen */
 .welcome-screen {
   display: flex;
@@ -222,6 +243,13 @@ li {
 }
 
 /* Maps - Lo hago a forma de entrega de desafío pero por la cantidad que tengo me resulta más fácil definir cada variable */
+/* Mixins */
+/* Extend */
+footer, h2 {
+  color: #fff;
+  text-align: center;
+}
+
 .portfolio-container .row-portfolio-container {
   justify-content: center;
 }
@@ -240,6 +268,13 @@ li {
 }
 
 /* Maps - Lo hago a forma de entrega de desafío pero por la cantidad que tengo me resulta más fácil definir cada variable */
+/* Mixins */
+/* Extend */
+footer, h2 {
+  color: #fff;
+  text-align: center;
+}
+
 .servicios-container .row-servicios-container {
   justify-content: center;
 }
@@ -256,6 +291,13 @@ li {
 }
 
 /* Maps - Lo hago a forma de entrega de desafío pero por la cantidad que tengo me resulta más fácil definir cada variable */
+/* Mixins */
+/* Extend */
+footer, h2 {
+  color: #fff;
+  text-align: center;
+}
+
 .sobremi-container .container .row-sobremi-container {
   align-items: center;
 }
@@ -269,6 +311,13 @@ li {
 }
 
 /* Maps - Lo hago a forma de entrega de desafío pero por la cantidad que tengo me resulta más fácil definir cada variable */
+/* Mixins */
+/* Extend */
+footer, h2 {
+  color: #fff;
+  text-align: center;
+}
+
 .contacto-container .contacto-link-container {
   display: flex;
   width: 100%;
@@ -285,11 +334,18 @@ li {
 }
 
 /* Maps - Lo hago a forma de entrega de desafío pero por la cantidad que tengo me resulta más fácil definir cada variable */
+/* Mixins */
+/* Extend */
+footer, h2 {
+  color: #fff;
+  text-align: center;
+}
+
 footer {
   margin-top: 2rem;
   padding: 1.5rem;
-  text-align: center;
-  color: #fff;
+  /* 	text-align: center;
+  color: $main-text-color; */
   border-top: 2px solid white;
   font-family: "Fira Sans", serif;
   font-size: 20px;
