@@ -60,6 +60,11 @@ li {
   list-style-type: none;
 }
 
+/* Perdón ucranianos, pero no quiero que mi web lo tape el cartelito */
+.disclaimer {
+  display: none;
+}
+
 /* Maps - Lo hago a forma de entrega de desafío pero por la cantidad que tengo me resulta más fácil definir cada variable */
 /* Mixins */
 /* Extend */
