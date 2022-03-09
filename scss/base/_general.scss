@@ -59,7 +59,11 @@ li {
 	list-style-type: none;
 }
 
-/* Perdón ucranianos, pero no quiero que mi web lo tape el cartelito */
+/* Perdón ucranianos, pero no quiero que a mi web lo tape el cartelito */
 .disclaimer {
 	display: none;
+}
+
+.separador-img {
+	max-width: 100vw;
 }

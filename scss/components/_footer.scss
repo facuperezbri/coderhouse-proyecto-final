@@ -5,7 +5,7 @@ footer {
 		a {
 			color: $main-text-color;
 		}
-		a:hover {
+		&:hover {
 			color: $hover-color;
 		}
 	}
