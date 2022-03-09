@@ -6,11 +6,13 @@ Tengo experiencia en Diseño UX/UI pero quería poder convertir mis diseños en 
 
 En este curso pude comenzar a dar mis primeros paso en el desarrollo web aprendiendo:
 
-✔️ HTML
-✔️ CSS
-✔️ SASS
-✔️ Boostrap
-✔️ Hosting de webs
-✔️ Y algunos otros truquitos
+- HTML
+- CSS
+- SASS
+- Boostrap
+- Hosting de webs
+- Y algunos otros truquitos
 
 Esto recién comienza y espero poder mostrar en un corto plazo todos mis proyectos y avances.
+
+![Logo Coder](https://www.greatplacetowork.com.ar/images/coderhouse-logo.png)
