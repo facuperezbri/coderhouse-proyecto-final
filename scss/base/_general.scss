@@ -67,3 +67,16 @@ li {
 .separador-img {
 	max-width: 100vw;
 }
+
+.carousel-separator {
+	overflow: hidden;
+	@media screen and (min-width: 1760px) {
+		height: 100vh;
+	}
+	.carousel-inner {
+		.carousel-item {
+			img {
+			}
+		}
+	}
+}
