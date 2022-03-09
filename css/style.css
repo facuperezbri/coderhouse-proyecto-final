@@ -314,7 +314,8 @@ footer, h2 {
   text-align: center;
 }
 .sobremi-container .container .row-sobremi-container .col-sobremi-container .sobremi-text {
-  text-align: left;
+  text-align: center;
+  width: 70%;
 }
 .sobremi-container .container .row-sobremi-container .col-sobremi-container .sobremi-image {
   border-radius: 15px;
