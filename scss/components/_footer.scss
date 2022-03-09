@@ -5,9 +5,9 @@ footer {
 	div {
 		a {
 			color: $main-text-color;
-		}
-		&:hover {
-			color: $hover-color;
+			&:hover {
+				color: $hover-color;
+			}
 		}
 	}
 	margin-top: 2rem;

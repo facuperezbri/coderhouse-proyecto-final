@@ -77,6 +77,7 @@ li {
     height: 100vh;
   }
 }
+
 /* Maps - Lo hago a forma de entrega de desafío pero por la cantidad que tengo me resulta más fácil definir cada variable */
 /* Mixins */
 /* Extend */
@@ -381,7 +382,7 @@ footer {
 footer div a {
   color: #fff;
 }
-footer div:hover {
+footer div a:hover {
   color: #ffa500;
 }
 footer .logo-coder img {
