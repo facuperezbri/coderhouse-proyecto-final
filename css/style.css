@@ -307,6 +307,9 @@ footer, h2 {
   text-align: center;
 }
 
+.sobremi-container {
+  background-color: #151518;
+}
 .sobremi-container .container .row-sobremi-container {
   align-items: center;
 }
@@ -331,6 +334,9 @@ footer, h2 {
   text-align: center;
 }
 
+.contacto-container {
+  background-color: #151518;
+}
 .contacto-container .contacto-link-container {
   display: flex;
   width: 100%;
@@ -355,6 +361,7 @@ footer, h2 {
 }
 
 footer {
+  background-color: #151518;
   margin-top: 2rem;
   padding: 1.5rem;
   /* 	text-align: center;

@@ -1,6 +1,7 @@
 @import "../base/variables";
 
 .contacto-container {
+	background-color: $main-bg;
 	.contacto-link-container {
 		display: flex;
 		width: 100%;
