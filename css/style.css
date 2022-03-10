@@ -280,6 +280,7 @@ footer, h2 {
 }
 .portfolio-container .row-portfolio-container .col-portfolio-container p {
   padding-top: 2rem;
+  text-align: center;
 }
 
 .carousel-item img {
