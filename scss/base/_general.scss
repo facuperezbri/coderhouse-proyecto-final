@@ -32,6 +32,10 @@ body {
 	color: map-get($map: $colors, $key: hover);
 }
 
+h1 {
+	display: none;
+}
+
 h2 {
 	font-size: 3rem;
 	font-weight: 500;
